@@ -1,0 +1,11 @@
+Note Points:-
+    * class implements interface
+    * interface extends interface
+    * class extends class
+
+* By default methods interface are abstract
+* by default fields or members in interface are final and static
+* if want to implement a method in interface then use the following keywords
+        * static - because, static methods cannot be overridden, so they should be implemented
+                    there itself.
+        * default - access modifier

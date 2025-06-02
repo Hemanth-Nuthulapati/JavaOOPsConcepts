@@ -1,0 +1,21 @@
+Access Modifiers:--
+    * Access Modifiers are also called as access controls or access Specifiers.
+    *In java there are mainly four access level controls. They are:
+        i) Public
+        ii) protected
+        iii) Default (or no access modifier)
+        iv) private
+    * Public:- public members or fields, methods and classes are accessible to everyone that
+                means any package can access it.
+                ex:- public class ClassName{...}
+                     public void methodName(){...}
+                     public int variable;
+    * Protected:- protected members or fields, methods and classes are accessible to everyone
+                  in the package and outside the package no can access it. There is an
+                  exception that only subclass can have access to those fields, methods and
+                  classes(that means InsidePackageClass is inherited by OutsidePackageClass).
+    * Default or no modifier :- default members or fields, methods and classes are accessible
+                                to every on in the same package. No one outside the package
+                                does not have access.
+    * Private:- Private members or fields, methods and classes are accessible to everyone
+                only in the particular Class.

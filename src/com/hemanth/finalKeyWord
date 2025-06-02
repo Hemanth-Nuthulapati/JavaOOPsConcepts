@@ -1,0 +1,21 @@
+Final Keyword:---
+The final Keyword has mainly three uses:
+    i) Used in Creating constants
+    EX:- final int PI = 3.14;
+      Note:-
+        * final variables must be initialized at the time of declaration like constants
+        * convention of final variable is to use all the upper case letters
+
+    ii) If final is used to create methods, then those methods cannot be overridden
+    EX:- final void show(){
+            System.out.println("This method is not meant for overriding...");
+          }
+
+    iii) If final is used to create a class, then those classes cannot be inherited
+    EX:- final class SecureClass{
+            //Class Body
+            }
+
+Note:--
+    It is illegal to declare a class as abstract and final because abstract classes
+    are meant to be extended, while a final class cannot be extended(inherited)...
